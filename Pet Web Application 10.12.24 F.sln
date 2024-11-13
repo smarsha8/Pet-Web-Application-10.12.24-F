@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pet Web Application 10.12.24 F", "Pet Web Application 10.12.24 F\Pet Web Application 10.12.24 F.csproj", "{DD722572-9BB0-483D-97CB-E4FBECA314AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pet Web Application 10.12.24 F", "Pet Web Application 10.12.24 F\Pet Web Application 10.12.24 F.csproj", "{DD722572-9BB0-483D-97CB-E4FBECA314AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
