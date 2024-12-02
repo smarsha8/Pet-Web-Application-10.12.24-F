@@ -13,9 +13,7 @@
     <p>We offer a variety of products and services for your beloved pets. Explore our site to find out more about what we offer.</p>
 </div>
 
-<div>
-    <a href="donate.html" class="donate-button">Donate</a>
-</div>
+
 
 @section Scripts {
     <!-- Add any additional scripts here -->
@@ -44,6 +42,26 @@
             .donate-button:hover {
                 background-color: #218838;
             }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+            nav ul li {
+                margin-left: 20px;
+            }
+
+                nav ul li a {
+                    text-decoration: none;
+                    color: #000;
+                }
+
+        .fa-shopping-cart {
+            margin-right: 5px;
+        }
+
     </style>
 </head>
 <body>
@@ -54,3 +72,12 @@
     <!-- Other content of your home page -->
 </body>
 </html>
+
+
+
+<nav>
+    <ul>
+       
+        <li><a href="/cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+    </ul>
+</nav>

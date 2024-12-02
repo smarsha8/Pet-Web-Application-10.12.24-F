@@ -1,11 +1,48 @@
 ﻿
 @{
-    ViewData["Title"] = "FurBabbies";
+    ViewData["Title"] = "Fur Babbies";
 }
 
-<h1>FurBabbies</h1>
+/*Title Format*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fur Babies</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1 class="title">Fur Babies</h1>
+</body>
+</html>
 
-This page will contian a catalog of puppies.
+
+
+
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Button Highlight</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to  CSS file -->
+</head>
+<body>
+    <p class="highlight-text"> Just Want To Donate To The Organization?</p>
+   
+</body>
+</html>
+
+
+
+
+
+
 
 
 <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Donate", "Home")'">Donate</button>
@@ -20,8 +57,8 @@ This page will contian a catalog of puppies.
         <button class="donate" onclick="window.location.href='donate.html'">Donate</button>
     </div>
     <div class="puppy-item">
-        <img src="~/Images/Chihuaha.jpg" alt="Chihuaha">
-        <h2>Chihuaha</h2>
+        <img src="~/Images/chihuahua.jpg" alt="Chihuahua">
+        <h2>Chihuahua</h2>
         <button class="add-to-cart">Adopt</button>
         <button class="donate" onclick="window.location.href='donate.html'">Donate</button>
     </div>

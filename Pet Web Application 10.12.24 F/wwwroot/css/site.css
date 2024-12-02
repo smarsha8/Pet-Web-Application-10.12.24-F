@@ -48,6 +48,8 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: white; /* White text color */
+    font-weight: bold; /* Bold text */
 }
 
 /* Contact Form Styles */
@@ -139,7 +141,37 @@ h2 {
     color: #fff;
 }
 
-.donate {
-    background-color: #ffc107;
-    color: #fff;
+
+
+/*   Highlight Text */
+.highlight-text {
+    color: white;
+    font-weight: bold;
+    position: relative;
 }
+
+
+
+
+
+
+
+.donate {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    .donate:hover {
+        background-color: #0056b3; /* Darker blue when you hover*/
+    }
+.title {
+    color: white; /* White text color */
+    font-weight: bold; /* Bold text */
+    text-align: left; /* Center the text */
+}
+
+    
