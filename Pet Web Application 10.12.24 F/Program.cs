@@ -19,6 +19,9 @@ internal class Program
         builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<ApplicationDbContext>();
 
+        
+
+
         builder.Services.AddControllersWithViews();
 
         var app = builder.Build();
